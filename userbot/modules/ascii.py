@@ -82,7 +82,7 @@ async def ascii(event):
 
 
 async def asciiart(IMG, color1, color2, bgcolor):
-    chars = np.asarray(list(" .,:irs?@9B&#"))
+    chars = np.asarray(list(" AaLlFfIi"))
     font = ImageFont.load_default()
     letter_width = font.getsize("x")[0]
     letter_height = font.getsize("x")[1]
